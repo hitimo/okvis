@@ -10,7 +10,7 @@ set(OKVIS_VERSION
 
 # options for build configuration
 option (USE_SYSTEM_BRISK
-	"Use brisk via find_package rather than downloading it as part of okvis" ON) 
+	"Use brisk via find_package rather than downloading it as part of okvis" OFF) 
 option (USE_SYSTEM_CERES
 	"Use ceres via find_package rather than downloading it as part of okvis" ON) 
 option (BUILD_APPS
